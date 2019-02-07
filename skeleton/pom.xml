@@ -11,6 +11,7 @@
 	<groupId>com.ahnstar</groupId>
 	<artifactId>skeleton</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>skeleton</name>
 	<description>Skeleton for SpringBoot2</description>
 
@@ -76,6 +77,13 @@
 		    <groupId>org.apache.commons</groupId>
 		    <artifactId>commons-compress</artifactId>
 		    <version>1.8</version>
+		</dependency>
+		
+		<!-- tomcat-jdbc -->
+    	<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jdbc</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
